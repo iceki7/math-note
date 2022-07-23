@@ -14,9 +14,11 @@ f(k,n+1)=f(k,n)+(n+1)^k\quad(*)
 $$
 
 
-如果f(k,n)真的可以被一个初等函数g(k,n)表示出来，那么在g上$n\in \mathbb{R}$，(*)肯定能在$g(k,n)$上几乎处处成立，且可导。
+假设$f(k,n)$其实是一个初等函数 $g(k,n)$ 在 $n\in \mathbb{Z}$ 时的一个特例。
+
+假设$g(k,n)$可导，
 ​
-则当$k\geq 2$时，
+则$k\geq 2$时，
 $$
 \frac{\partial g(k,n)}{\partial n}=\frac{\partial g(k,n-1)}{\partial n}+kn^{k-1}
 \\ . \\

@@ -1,7 +1,7 @@
 
 
 <!-- <font size=4 color=#0825aa> -->
-<font size=4>
+<!-- <font size=4> -->
 通俗解释傅里叶级数
 
 
