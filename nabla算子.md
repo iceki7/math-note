@@ -15,14 +15,17 @@ $$
 $$
 
 **旋度**
-$$
 就是叉积.
+$$
 \nabla \times \vec{F}(x,y,z)=\begin{vmatrix}
  \vec{i} & \vec{j} &\vec{k} \\ 
  \frac{\partial }{\partial x} &\frac{\partial }{\partial y} &\frac{\partial }{\partial z}
   \\ F_x & F_y & F_z \end{vmatrix}
 $$
-
+**Laplace算子**
 $$
 \nabla\cdot (\nabla f)=\nabla^2 f
 $$
+场的二阶偏导的和，可以是向量场。
+
+
