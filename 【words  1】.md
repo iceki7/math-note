@@ -23,3 +23,8 @@ acommodate<provide space>
 all alone
 sb in control of sth
 /sign up /log in=sign in
+mutate
+augment ->
+diminish
+oppress<emo>
+optimize

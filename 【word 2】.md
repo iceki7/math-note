@@ -1,0 +1,30 @@
+pilgrim
+purge
+crave = long for
+<fort>ify
+impart=convey
+fraction
+coronation
+eternal >
+mortal >
+mortgage
+woe
+seduce
+vile,veil,<vi>ce,evil
+census
+integrate
+prototype
+sparse
+bulge
+trivial
+constellation
+incest
+compensate <money><emo>
+despise
+dispose
+epic
+foil
+humble
+hasty
+notion
+notation
