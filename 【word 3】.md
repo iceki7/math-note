@@ -17,3 +17,7 @@ wicked
 warrant v<justify> N
 wretched
 whip NV
+discrete con~ 
+loft y
+cringe
+chill<cool fig>

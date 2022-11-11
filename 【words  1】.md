@@ -5,7 +5,7 @@
 sus<pend>
 dash
 derive
-di<verge>
+diverge,converge
 legacy
 re<fine>
 thermal
