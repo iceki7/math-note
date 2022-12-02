@@ -1,0 +1,60 @@
+网页SSH进入服务器。
+
+容器是镜像的改造。
+
+Jupyter:
+
+解压TGZ：tar zxvf 文件名.tgz
+
+【安装python】
+1、用apt-get update更新不了；yum安装不了。
+	https://blog.csdn.net/hanxiaoyong_/article/details/124771041
+	用yum安装python。
+2、Python包3.10直接安装：
+		
+	https://juejin.cn/post/6998833108329955365
+	https://www.ycpai.cn/python/ucXRIeK9.html
+	https://blog.csdn.net/a1809032425/article/details/122729307
+
+	2、下载python.tgz， 编译安装，记得prefix指定软件的安装目录。
+	 ./configure --prefix=/usr/local/python3.10.8
+	缺少库(zlib），下不了。
+	3、处理python版本冲突（软链接法/卸载旧版本），检查pip list。
+3、安装anaconda。
+	linux-x86_64.sh
+	https://zhuanlan.zhihu.com/p/348120084	
+	https://blog.csdn.net/sonapingo/article/details/124165317
+
+【传文件】
+1、用WINSCP，输入IP:SSH端口+用户名(root）+密码（passwd设置），端口连接。
+【挂代理】
+	https://blog.csdn.net/lovedingd/article/details/118893034
+
+	export http_proxy=http://router4.ustb-ai3d.cn:3128
+	export https_proxy=http://router4.ustb-ai3d.cn:3128	
+
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.ustc.edu.cn/anaconda/pkgs/main/
+
+
+【conda & pip & python cmd】
+conda/pip list xxx 
+conda info ,conda -V
+python -V
+whereis python 
+vi /root/.condarc
+
+【conda】
+	创建新环境：https://www.cnblogs.com/johnyang/p/13417374.html，之后还得下Jupiter jupyterLab
+	切换env		https://blog.csdn.net/yuehenmiss/article/details/102914941
+	下载加速：https://blog.csdn.net/qazplm12_3/article/details/108924561
+
+使用mamba替代conda进行加速下载。
+https://www.jianshu.com/p/f4b6b6e60f10
+
+【Jupiter关联到新的python版本】
+https://www.coonote.com/jupyter-note/jupyter-configures-multiple-python-versions.html
+修改 /usr/local/share/jupyter/kernels/python3/kernel.json为3.9的路径。
+
+【mount】
+挂载：不同镜像拉取以后文件还是依旧保留，但系统设置没了。
