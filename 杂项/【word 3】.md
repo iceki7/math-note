@@ -20,4 +20,10 @@ whip NV
 discrete con~ 
 loft y
 cringe
+legacy
 chill<cool fig>
+inventory
+wrench NV
+stake <fig 2>
+tailor NV
+propagate 2
