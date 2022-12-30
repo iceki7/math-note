@@ -4,18 +4,31 @@ $$
 
 **梯度**
 $$
-\nabla f(x,y)=(\frac{\partial f}{\partial x},\frac{\partial f}{\partial y})
-$$
+\nabla  \begin{bmatrix}
+  u \\
+  v \\
+  w \\
+\end{bmatrix}=
+ \begin{bmatrix}
+  u_x & u_y & u_z \\ 
+  v_x & v_y & v_z \\ 
+  w_x & w_y & w_z \\ 
+\end{bmatrix}
 
+$$
 显然，函数极值点处 $\nabla f=\vec{0}$，但反过来则不然，该点有可能是鞍点，因此还需要雅可比矩阵和海森矩阵用于判断。
 
 **散度**
 $$
-\nabla \cdot \vec{F}(x,y)=\frac{\partial {F_x}}{\partial x}+\frac{\partial {F_y}}{\partial y}
+\nabla \cdot \begin{bmatrix}
+  u \\
+  v \\
+  w \\
+\end{bmatrix}=u_x+v_y+w_z
 $$
 
 **旋度**
-就是叉积.
+
 $$
 \nabla \times \vec{F}(x,y,z)=\begin{vmatrix}
  \vec{i} & \vec{j} &\vec{k} \\ 
@@ -24,8 +37,17 @@ $$
 $$
 **Laplace算子**
 $$
-\nabla\cdot (\nabla f)=\nabla^2 f
+\nabla\cdot (\nabla f)=\nabla^2 f=
+\nabla \cdot \begin{bmatrix}
+  u_x & u_y & u_z \\ 
+  v_x & v_y & v_z \\ 
+  w_x & w_y & w_z \\ 
+\end{bmatrix}=
+ \begin{bmatrix}
+  u_{xx} + u_{yy} + u_{zz} \\ 
+v_{xx} + v_{yy} + v_{zz} \\ 
+w_{xx} + w_{yy} + w_{zz} \\ 
+\end{bmatrix}
 $$
-场的二阶偏导的和，可以是向量场。
 
 

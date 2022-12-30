@@ -1,18 +1,26 @@
 **物质导数**
 $$
+\frac{D A^E}{D t}=\frac{\partial A^E}{\partial t}+\mathbf{v} \cdot \nabla_{\mathbf{x}} A^E \quad \text { and } \quad \frac{D A^L}{D t}=\frac{\partial A^L}{\partial t} \text {. }
+$$
+The second term of the material derivative for Eulerian coordinates
+is referred to as convection term
+
+
+$$
 \frac{DA}{D t}=\frac{\partial A}{\partial t}+\frac{\partial A}{\partial x}\frac{dx}{dt}+...=\frac{\partial A}{\partial t}+\mathbf{v}\cdot \nabla A
 $$
 在拉格朗日法下，由于相当于追踪某个物质微元，因此式子退化为：$$\frac{D A}{Dt}=\frac{\partial A}{\partial t}$$
 
 **Linear Momentum Conservation**
+
 牛二在连续体上的推广。material-independenth
 T是应力张量，f是力密度.
 $$
-\rho\frac{D\vec{v}}{Dt}=\nabla\cdot T+\vec{f}
+\rho \frac{D \mathbf{v}}{D t}=\nabla \cdot \mathbf{T}+\mathbf{f}_{\mathrm{ext}}
 $$
 **Fluid Stress Tensor**
 $$
-T=-p\mathbb{I} +2 \mu E=-p\mathbb{I} + \mu(\nabla\vec{v} + \nabla\vec{v}^T )
+T=-p\mathbb{I} +2 \mu E=-p\mathbb{I} + \mu(\nabla\mathbf{v} + \nabla\mathbf{v}^T )
 $$
 E：应变率张量。p衡量抗压缩性。
 以上可得出NS方程。
