@@ -1,3 +1,7 @@
+
+$$
+a\times b=ab^T
+$$
 $$
 \nabla=(\frac{\partial }{\partial x},\frac{\partial }{\partial y},...) 
 $$
@@ -27,6 +31,10 @@ $$
 \end{bmatrix}=u_x+v_y+w_z
 $$
 
+$$
+\nabla \cdot (k\mathbb{I})=\nabla k
+$$
+
 **旋度**
 
 $$
@@ -37,7 +45,7 @@ $$
 $$
 **Laplace算子**
 $$
-\nabla\cdot (\nabla f)=\nabla^2 f=
+\nabla^2 f=\nabla\cdot (\nabla f)=
 \nabla \cdot \begin{bmatrix}
   u_x & u_y & u_z \\ 
   v_x & v_y & v_z \\ 

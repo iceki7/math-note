@@ -1,28 +1,67 @@
-bB小调，c小调，#f小调，#c小调,e小调，bE大调夜曲
-e小调，#c小调，b小调圆舞曲，叙事曲1号
-B大调,bB小调前奏曲，波兰英雄圆舞曲，#f小调玛祖卡
-革命，冬风，激流练习曲，即兴幻想曲
 
-黎明一
-悲怆一，二，三
-月光一，三
-暴风雨一，三
-热情三
-皇帝
-贝五 李斯特改编
+Nocturne bB minor
+Nocturne bE major
+Nocturne c minor
+Nocturne #f minor
+Nocturne #c minor
+Nocturne E minor
+Waltz E minor
+Waltz #C minor
+Waltz B minor
+Ballade No.1 G minor
+Prelude op28 no11,16,24
+Etude Revolutionary
+Etude Op10 No 4 激流
+Etude Winter Wind
+Polonaise bA major "Heroic"
+Mazurkas #f minor
+即兴幻想曲 fantaisie impromptu
 
-月光，Reverie，阿拉伯风格曲1号，
-Bruyeres，亚麻色头发的少女，水之嬉戏
-K545 K310
-爱之梦
-Greig 钢协1
-维瓦尔第 四季 夏三 冬一
-巴赫 c大调 c小调前奏曲
-六月船歌
-骑士之舞
-匈牙利狂想曲第2号
-拉赫 音乐瞬间4
-拉赫 g小调前奏曲
-Dance of spring
-门德尔松 e小协
-西贝柳斯 d小协
+
+Pathetique 1,2,3
+Moonlight 1,3
+Tempest 1,3
+Appassionata 1,3
+Waldstein 1
+Concerto Emperor
+Symphony No.5 Arr. Liszt
+
+
+Liebestraume
+La Campanella 钟
+Hungarian Rhapsody No.2
+小夜曲 （Serenade） Arr. Liszt
+
+
+Clair De Lune
+Reverie
+Arabesque No.1
+Bruyeres
+亚麻色头发的少女(la fille aux checeux de lin)
+水之嬉戏(Jeux d'aux)
+Humoresque
+
+
+K310
+K545
+Symphony No.40 G minor K550
+
+
+Greig Concerto No.1
+Vivaldi 4 seasons summer,winter
+
+C major Prelude
+C minor Prelude
+Cello Suite BWV1007 Prelude, G major
+
+拉赫 Moments Musicaux no.4
+拉赫 Prelude G minor
+
+西贝柳斯 Violin Concerto D minor 
+门德尔松 Violin Concerto E minor 
+
+六月船歌 Les saisons(the seasons) op37 no6 June
+Dance of the Knights
+
+
+Dance of Spring

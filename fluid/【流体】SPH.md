@@ -1,59 +1,118 @@
-**物质导数**
+**material  derivative**
 $$
 \frac{D A^E}{D t}=\frac{\partial A^E}{\partial t}+\mathbf{v} \cdot \nabla_{\mathbf{x}} A^E \quad \text { and } \quad \frac{D A^L}{D t}=\frac{\partial A^L}{\partial t} \text {. }
 $$
-The second term of the material derivative for Eulerian coordinates
-is referred to as convection term
+
+
 
 
 $$
 \frac{DA}{D t}=\frac{\partial A}{\partial t}+\frac{\partial A}{\partial x}\frac{dx}{dt}+...=\frac{\partial A}{\partial t}+\mathbf{v}\cdot \nabla A
 $$
-在拉格朗日法下，由于相当于追踪某个物质微元，因此式子退化为：$$\frac{D A}{Dt}=\frac{\partial A}{\partial t}$$
 
-**Linear Momentum Conservation**
 
-牛二在连续体上的推广。material-independenth
-T是应力张量，f是力密度.
+**2 motion eq.**
+
+
 $$
 \rho \frac{D \mathbf{v}}{D t}=\nabla \cdot \mathbf{T}+\mathbf{f}_{\mathrm{ext}}
 $$
-**Fluid Stress Tensor**
+**3 constitutive relation for incomp. flow**
 $$
-T=-p\mathbb{I} +2 \mu E=-p\mathbb{I} + \mu(\nabla\mathbf{v} + \nabla\mathbf{v}^T )
+T=-p\mathbb{I} + \mu(\nabla\mathbf{v} + (\nabla\mathbf{v})^T )
 $$
-E：应变率张量。p衡量抗压缩性。
-以上可得出NS方程。
+
+2 3 推导出NS：
+
+$$
+\rho \frac{D^2x}{Dt^2}=\mathbf{f}_{ext}+\mu \nabla^2 \mathbf{v}-\nabla p
+$$
 
 
-**continuity equation**
-物体密度随时间的变化。不可压缩流体该项为零.
+**continuity eq.**
+
+
 $$
 \frac{D\rho}{Dt}=-\rho(\nabla \cdot \mathbf{v})
 $$
+---
+非压力加速度带来密度偏差（连续性方程）。
 
-**Pressure Poission Eq.**
-从momentum equation and continuity equation推出
-描述$p$和$\rho$的关系：
-Incompressible:
-$$\nabla^2 p=\rho\frac{\nabla \cdot \mathbf{v}}{\Delta t}
+用压力加速度抵消。
+
+两种方法：解PPE/状态方程。带来的压缩性不同。
+
+显式计算体积(密度)偏差：核函数计算，过度修正导致oscillation
+
+隐式：计算$\rho^*-\rho_0$，volume drift
+
+---
+
+
+
+**State eq.**
+
+弱（可）压缩，$p(\rho)$
+用密度偏差控制压力大小。
+
+
+**PPE**
+
+不可压缩
+
+$a^p$引起的密度变化与$a^{nonp}$引起的密度变化相等：
+$\Rightarrow \nabla^2 p \Delta t=\frac{\rho_0-\rho^*}{\Delta t}
+$
+
+$$\mathbf{v}^*=\mathbf{v}+a^{nonp}\Delta t $$
+$$\rho^*=\rho-\rho(\nabla \cdot \mathbf{v}^*)$$
+
+
+**Pressure Solver**
+
+显式计算体积(密度)偏差：过度修正，oscillation
+隐式：volume drift
+
+压力求解：State eq. / PPE
+
+
+
+**Implicit Incomp. SPH**
+
+基于PPE的思路，隐式求解$p$。
+
+
+---
+离散化
+
+**kernel**
+
 $$
+A(\mathbf{x_i})=\sum_j A_j\frac{m_j}{\rho_j}W(\mathbf{x_i}-\mathbf{x_j},h)
+$$
+
+
+
+差分、对称形式
+
+---
+具体方法
+
+---
+**viscosity**
+
+---
+**boundary**
+
+
+
+
+
 HC:
 $$p=k(\rho-\rho_0)$$
 WC(tait eq):
 $$p=\frac{\kappa \rho_0}{\gamma}((\frac{\rho}{\rho_0})^\gamma-1)$$
-**NS方程**
-描述不可压缩牛顿流体
-$$
-\rho\frac{D\mathbf{v}}{Dt}=\rho(\frac{\partial \mathbf{v}}{\partial t}+\mathbf{v}\cdot \nabla\mathbf{v})=\mathbf{g}-\nabla p+\mu \nabla^2 \mathbf{v}
-$$
 
-$\rho$是密度。
-p是压力。
-SESPH：state equation计算：$p=k(\rho-\rho_0)$，密度差（适用于可压缩流体）。
-$\mu$是动力粘度。
-
-最后一项是不可压缩流体的粘性力。
 
 
 **粘性力计算**
@@ -69,13 +128,9 @@ $$
 若在边界流体粒子的核半径内，贡献$p$和$\rho$。
 固体粒子的$p$：mirroring
 
-**kernel**
-对Dirac-$\delta$的近似。
-$$
-A(\mathbf{x_i})=\sum_j A_j\frac{m_j}{\rho_j}W(\mathbf{x_i}-\mathbf{x_j})
-$$
 
-差分形式、对称形式
+
+
 **邻域搜索**
 假设邻域内的平均粒子数。
 划分网格。保存每个粒子所在的网格。只计算相邻网格内的粒子（存储空网格的空间）
