@@ -9,7 +9,7 @@ Waltz E minor
 Waltz #C minor
 Waltz B minor
 Ballade No.1 G minor
-Prelude op28 no11,16,24
+Prelude op28 no4,11,16,24
 Etude Revolutionary
 Etude Op10 No 4 激流
 Etude Winter Wind
