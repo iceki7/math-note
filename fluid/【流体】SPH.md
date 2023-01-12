@@ -61,8 +61,9 @@ $$
 不可压缩
 
 $a^p$引起的密度变化与$a^{nonp}$引起的密度变化相等：
-$\Rightarrow \nabla^2 p \Delta t=\frac{\rho_0-\rho^*}{\Delta t}
-$
+$$
+\Rightarrow \nabla^2 p \Delta t=\frac{\rho_0-\rho^*}{\Delta t}
+$$
 
 $$\mathbf{v}^*=\mathbf{v}+a^{nonp}\Delta t $$
 $$\rho^*=\rho-\rho(\nabla \cdot \mathbf{v}^*)$$
