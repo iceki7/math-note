@@ -15,7 +15,7 @@ lijy31@y.n
 【ut】tel q1
 【tel】107721
 
-pwd 107721 +1
+p 107721 +1
 【dfcf】541000088460
 dfcf-zfb-pufa   6217 9226 0119 9186
 wx-zhaoshang    6214 8372 1791 5838
