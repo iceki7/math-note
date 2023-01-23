@@ -13,3 +13,11 @@ lijy31@y.n
 【st bkp】R04094 wenzi
 【micro】q3
 【ut】tel q1
+【tel】107721
+
+pwd 107721 +1
+【dfcf】541000088460
+dfcf-zfb-pufa   6217 9226 0119 9186
+wx-zhaoshang    6214 8372 1791 5838
+yibao-changsha  6214 4678 7324 0950 920
+【door】307-202-88

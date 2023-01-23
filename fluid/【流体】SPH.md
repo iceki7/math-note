@@ -1,13 +1,13 @@
 **material  derivative**
 $$
-\frac{D A^E}{D t}=\frac{\partial A^E}{\partial t}+\mathbf{v} \cdot \nabla_{\mathbf{x}} A^E \quad \text { and } \quad \frac{D A^L}{D t}=\frac{\partial A^L}{\partial t} \text {. }
+\frac{D A^E}{D t}=\frac{\partial A^E}{\partial t}+\mathbf{v} \cdot \nabla_{\mathbf{x}} A^E \quad(对流项) \text { and } \quad \frac{D A^L}{D t}=\frac{\partial A^L}{\partial t} \text {. }
 $$
 
 
 
 
 $$
-\frac{DA}{D t}=\frac{\partial A}{\partial t}+\frac{\partial A}{\partial x}\frac{dx}{dt}+...=\frac{\partial A}{\partial t}+\mathbf{v}\cdot \nabla A
+\frac{DA}{D t}=\frac{\partial A}{\partial t}+\frac{\partial A}{\partial x}\frac{dx}{dt}+...=\frac{\partial A}{\partial t}+\nabla A \cdot \mathbf{v}
 $$
 
 
@@ -25,7 +25,7 @@ $$
 2 3 推导出NS：
 
 $$
-\rho \frac{D^2x}{Dt^2}=\mathbf{f}_{ext}+\mu \nabla^2 \mathbf{v}-\nabla p
+\rho \frac{Dv}{Dt}=\mathbf{f}_{ext}+\mu \nabla^2 \mathbf{v}-\nabla p
 $$
 
 

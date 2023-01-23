@@ -37,11 +37,12 @@ $$
 
 **旋度**
 
+向量场$\vec{F}(x,y,z)=(a,b,c)$
 $$
-\nabla \times \vec{F}(x,y,z)=\begin{vmatrix}
+\nabla \times (a,b,c)=\begin{vmatrix}
  \vec{i} & \vec{j} &\vec{k} \\ 
  \frac{\partial }{\partial x} &\frac{\partial }{\partial y} &\frac{\partial }{\partial z}
-  \\ F_x & F_y & F_z \end{vmatrix}
+  \\ a&b&c \end{vmatrix}
 $$
 **Laplace算子**
 $$
@@ -58,4 +59,9 @@ w_{xx} + w_{yy} + w_{zz} \\
 \end{bmatrix}
 $$
 
+其他规则：
+$$
+\nabla (uv)=u\nabla v+v \nabla u \\
+\nabla \cdot (\nabla \times \vec{F})=0
+$$
 
