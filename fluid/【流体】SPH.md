@@ -25,7 +25,7 @@ $$
 2 3 推导出NS：
 
 $$
-\rho \frac{Dv}{Dt}=\mathbf{f}_{ext}+\mu \nabla^2 \mathbf{v}-\nabla p
+\rho \frac{Dv}{Dt}=\mathbf{f}_{ext}+\mu \nabla^2 \mathbf{v}-\nabla p[\rho a]
 $$
 
 
@@ -36,45 +36,63 @@ $$
 \frac{D\rho}{Dt}=-\rho(\nabla \cdot \mathbf{v})
 $$
 ---
-非压力加速度带来密度偏差（连续性方程）。
 
-用压力加速度抵消。
 
-两种方法：解PPE/状态方程。带来的压缩性不同。
 
-显式计算体积(密度)偏差：核函数计算，过度修正导致oscillation
 
-隐式：计算$\rho^*-\rho_0$，volume drift
 
 ---
 
+不可压缩对于真实流体模拟至关重要。不适当的压缩会导致如体积振荡或体积损失。
+
+【不可压缩】用【密度恒定】来衡量，即减小【Δρ】
+
+用p矫正nonp产生的【Δρ】
+
+【求解Δρ】：可以通过密度显式计算/速度散度计算体积偏差的微分。显式计算体积(密度)偏差：核函数计算，过度修正导致oscillation；隐式：计算$D\rho /Dt$，continuity eq.,volume drift
 
 
+
+【求解p】：通过state eq.局部计算/PPE全局计算。
+
+---
 **State eq.**
+
+
 
 弱（可）压缩，$p(\rho)$
 用密度偏差控制压力大小。
 
+WC:tait eq.
 
+---
 **PPE**
 
 不可压缩
 
-$a^p$引起的密度变化与$a^{nonp}$引起的密度变化相等：
+$a^p$引起的密度变化与$a^{nonp}$引起的密度变化相等，continuity eq.：
 $$
 \Rightarrow \nabla^2 p \Delta t=\frac{\rho_0-\rho^*}{\Delta t}
 $$
+两种矫正方式：矫正密度，和矫正密度偏差，
+例如1000→1001→1000
+和1→0→1
 
 $$\mathbf{v}^*=\mathbf{v}+a^{nonp}\Delta t $$
 $$\rho^*=\rho-\rho(\nabla \cdot \mathbf{v}^*)$$
-
+vel-div source term形式的PPE：
+$$
+\nabla^2 p \Delta t^2=\Delta t\rho_0 \nabla \cdot \mathbf{v}^*
+$$
+IISPH方法使用松弛雅各比法迭代求解压力泊松方程。
 
 **Pressure Solver**
 
 显式计算体积(密度)偏差：过度修正，oscillation
 隐式：volume drift
 
-压力求解：State eq. / PPE
+如果压力加速度是从密度偏差的显式形式导出的，则流体体积会由于压力加速度的过度矫正而振荡，这些振荡必须最小化，至少是不可感知的(综述)。如果是使用微分形式计算密度偏差，那么会导致流体体积的漂移，通常是体积损失，需要最小化体积漂移。
+
 
 
 
@@ -93,8 +111,16 @@ A(\mathbf{x_i})=\sum_j A_j\frac{m_j}{\rho_j}W(\mathbf{x_i}-\mathbf{x_j},h)
 $$
 
 
+$$
+\nabla A_i \approx\left\langle\nabla A_i\right\rangle-A_i\langle\nabla 1\rangle=\sum_j \frac{m_j}{\rho_j}\left(A_j-A_i\right) \nabla_i W_{i j}
+$$
 
-差分、对称形式
+$$
+\begin{aligned}
+\nabla A_i & \approx \rho_i\left(\frac{A_i}{\rho_i^2}\langle\nabla \rho\rangle+\left\langle\nabla\left(\frac{A_i}{\rho_i}\right)\right\rangle\right) \\
+& =\rho_i \sum_j m_j\left(\frac{A_i}{\rho_i^2}+\frac{A_j}{\rho_j^2}\right) \nabla_i W_{i j} .
+\end{aligned}
+$$
 
 ---
 具体方法
