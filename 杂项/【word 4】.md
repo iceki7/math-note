@@ -27,6 +27,6 @@ dilemma diploma diplomatic
 sadistic masoch-
 insult +emo invade
 aperture
-flatter
+flatter flutter
 oblige
 obligate

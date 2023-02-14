@@ -1,3 +1,8 @@
+PINN 
+
+
+3D-NS扩展：
+
 $$
 \rho(\mathbf{v}_t+\nabla \mathbf{v}\cdot \mathbf{v})=f_{ext}+\mu \nabla^2 \mathbf{v}-\nabla p\\
 \begin{aligned}
@@ -9,8 +14,14 @@ w_t+\lambda_1\left(u w_x+v w_y+ww_z\right) & =-p_z+\lambda_2\left(w_{x x}+w_{y y
 
 
 
+
+
 $$
 
+不考虑粘度，增加重力后的修正公式:
+$$
+...=-g-p_x
+$$
 Divergence-free：
 
 $$
