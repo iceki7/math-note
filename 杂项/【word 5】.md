@@ -29,7 +29,7 @@ penta-gram
 smash
 prank
 sort of
-ain't 
+ain't outta
 pervert
 redeem
 credibility
