@@ -14,7 +14,7 @@ pull up
 dribble trickle
 thesis +hypo
 henceforth
-Residual
+reside residual
 Synopsis
 Scenario scenary scene
 different perspective=viewpoint

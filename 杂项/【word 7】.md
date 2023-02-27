@@ -19,7 +19,6 @@ buzz
 dose
 concede
 depict narrate
-reside
 comic 漫画
 hazard
 rectify
