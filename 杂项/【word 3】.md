@@ -1,5 +1,5 @@
 oscillate
-pirate
+pirate cons-
 procession <phy>
 proclaim
 reconcile <sb,sth>
