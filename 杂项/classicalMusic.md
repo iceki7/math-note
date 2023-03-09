@@ -14,6 +14,7 @@ Etude Revolutionary
 Etude Op10 No 4 激流
 Etude Winter Wind
 Polonaise bA major "Heroic"
+Polonaise #G minor
 Mazurkas #f minor
 即兴幻想曲 fantaisie impromptu
 
