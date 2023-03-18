@@ -4,10 +4,9 @@ hormone
 dispose
 vibe
 incite
-rebell
-evacuate
+rebel
 convention
-trait
+trait +or
 wrench
 boltz
 await
