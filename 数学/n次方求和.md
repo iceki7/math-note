@@ -52,4 +52,14 @@ $$
 g(2,n)=\int_0^nx^2+xdx+n(1-\int_0^1x^2+xdx)=\frac{n^3}{3}+\frac{n^2}{2}+\frac{n}{6}
 $$
 
+---
+
+如果直接去算x^k的积分：
+
+$$
+s=\frac{D}{n}\sum_{i=0}^{n-1} (id)^k,nd=D，D是常数
+\\ \lim_n s=D^{k+1}\lim \frac{g(k,n-1)}{n^{k+1}}=\int_0^D x^kdx=D^{k+1}/k+1
+\\ \lim \frac{g(k,n-1)}{n^k}=\frac{1}{k+1}
+$$
+
 ​
