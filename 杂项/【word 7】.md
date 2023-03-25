@@ -14,7 +14,8 @@ ground v
 pry into
 hilarious
 discard
-consists of=be composed of
+consists of <decompose>
+~ compose ~ comprise ~constitute
 buzz
 dose
 concede
