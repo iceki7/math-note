@@ -1,13 +1,18 @@
-正则表达式搜索：^字母
+reg exp：^letter
 
-I 英语不够规则，但是足够有用。
-II 第一次见到生词就要查，否则白白错过一次加深印象的机会
-III 查过的词不用重复看，就让它们随着使用频率的变化自然地加深/减弱印象即可
-IV 半生不熟的词汇如果可以推断出意思，不影响文意理解，不收录。因为那些可能是以前记过的。如果要全写就太多这种词了。
+- English words are irregular,but useful.
+
+- search the world in a dict when first seeing it or miss a chance to enhance impression.
+
+- A good way to learn it is repeating,another one is getting into the env.
+- To use it is more important than being local,or being clear about the meaning of every single word. we know what each other means ,then it's ok.(in most cases)
+
+- when meeting a half-familiar word,if it's possible to deduce the meaning.dont collect, since there's so many words like this.
+
 
 sus<pend>
 dash
-derive
+derive deduce deprive
 diverge,converge
 legacy
 re<fine>

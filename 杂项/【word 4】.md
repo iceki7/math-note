@@ -20,7 +20,7 @@ espresso
 downright
 ignite
 shaft
-prosecute
+prosecute,prosttt
 loiter
 narrate
 dilemma diploma diplomatic
