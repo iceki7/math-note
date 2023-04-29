@@ -1,19 +1,32 @@
 【gh】iceki7 q1
-【is】tel
-【tw】 tel
-【k5】 132
+【is】t158
+【tw】 t158
+【k5】 t132
 【tum】 goo
 【wifi】yzy 123 789
 【px】 goo
 【yt】 goo
 【rd】 goo
 lijy31@y.n
+iceki7@163
 【cc】 concise7_
-【st】q3 tel
+【st】q3 t158
 【st bkp】R04094 wenzi
-【micro】q3
-【ut】tel q1
+【micro】q3  q1
+【ut】t158 q1
 【tel】107721
+【wyy】q1 t132
+【bili】t158
+
+
+【bkp】
+canvas
+sheet
+mate-note
+wenzi
+academy
+setups
+
 
 dyn6498297@26
 p 107721 +1
