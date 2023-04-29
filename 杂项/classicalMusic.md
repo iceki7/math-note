@@ -32,7 +32,10 @@ Liebestraume
 La Campanella 钟
 Hungarian Rhapsody No.2
 小夜曲 （Serenade） Arr. Liszt
-
+Sonata B minor
+Ballade No.2 B minor S.171
+Harmonies Du Soir
+Erlkonig Arr.Liszt
 
 Clair De Lune
 Reverie
@@ -49,14 +52,14 @@ Symphony No.40 G minor K550
 
 
 Greig Concerto No.1
-Vivaldi 4 seasons summer,winter
+Vivaldi 4 seasons summer 3rd,winter 1st
 
 C major Prelude
 C minor Prelude
 Cello Suite BWV1007 Prelude, G major
 
-拉赫 Moments Musicaux no.4
-拉赫 Prelude G minor
+Rach Moments Musicaux no.4
+Rach Prelude G minor
 
 西贝柳斯 Violin Concerto D minor 
 门德尔松 Violin Concerto E minor 

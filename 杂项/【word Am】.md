@@ -1,3 +1,9 @@
+mantra
+induce deduce
+devastate
+flex
+patron -ize
+move on
 resilience
 manifest -fold
 invert re- per
@@ -18,3 +24,5 @@ muster
 cradle
 abyss
 prank
+consum-
+intrigue
