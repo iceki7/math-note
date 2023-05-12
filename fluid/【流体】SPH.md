@@ -25,8 +25,11 @@ $$
 2 3 推导出NS：
 
 $$
-\rho \frac{Dv}{Dt}=\mathbf{f}_{ext}+\mu \nabla^2 \mathbf{v}-\nabla p[\rho a]
+\rho \frac{D\bold{v}}{Dt}=\mathbf{f}_{ext}+\mu \nabla^2 \mathbf{v}-\nabla p[\rho a]
 $$
+
+粘度项是拉普拉斯算子，它的离散对应就是二阶差分。
+即微粒两侧的速度差距越大，它变化越快。
 
 
 **continuity eq.**
@@ -49,7 +52,7 @@ $$
 
 用p矫正nonp产生的【Δρ】
 
-【求解Δρ】：可以通过密度显式计算/速度散度计算体积偏差的微分。显式计算体积(密度)偏差：核函数计算，过度修正导致oscillation；隐式：计算$D\rho /Dt$，continuity eq.,volume drift
+【如何衡量Δρ】：可以通过核函数插值显式计算当前密度/速度散度计算体积偏差的微分。显式计算体积(密度)偏差：核函数计算，过度修正导致oscillation；隐式：计算$D\rho /Dt$，continuity eq.,volume drift
 
 
 
@@ -70,7 +73,7 @@ WC:tait eq.
 
 不可压缩
 
-$a^p$引起的密度变化与$a^{nonp}$引起的密度变化相等，continuity eq.：
+$a^p$引起的密度变化与$a^{nonp}$引起的密度变化相等，以及由连续性方程，得到PPE：
 $$
 \Rightarrow \nabla^2 p \Delta t=\frac{\rho_0-\rho^*}{\Delta t}
 $$
@@ -91,8 +94,9 @@ IISPH方法使用松弛雅各比法迭代求解压力泊松方程。
 
 **Pressure Solver**
 
-显式计算体积(密度)偏差：过度修正，oscillation（即1000→1001→1000）
-微分形式：volume drift
+若用核函数插值显式计算体积(密度)偏差：过度修正，oscillation（即1000→1001→1000）
+
+若用微分形式计算，即连续性方程：volume drift
 （即1→0→1）
 
 如果压力加速度是从密度偏差的显式形式导出的，则流体体积会由于压力加速度的过度矫正而振荡，这些振荡必须最小化，至少是不可感知的(综述)。如果是使用微分形式计算密度偏差，那么会导致流体体积的漂移，通常是体积损失，需要最小化体积漂移。
