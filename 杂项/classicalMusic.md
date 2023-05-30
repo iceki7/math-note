@@ -32,7 +32,7 @@ Liebestraume
 La Campanella 钟
 Hungarian Rhapsody No.2
 小夜曲 （Serenade） Arr. Liszt
-Sonata B minor
+Sonata B minor  (Andre Laplante)
 Ballade No.2 B minor S.171
 Harmonies Du Soir
 Erlkonig Arr.Liszt
