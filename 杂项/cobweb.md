@@ -18,15 +18,24 @@ iceki7@163
 【tel】107721
 【wyy】q1 t132
 【bili】t158
-
+【disc】130 t158
+【baidu】q130
+【baidu】158
 
 【bkp】
-canvas
-sheet
-mate-note
-wenzi
-academy
+canvas  wyV     硬盘
+sheet   wyV
+mate-note   gi
+wenzi   gi
+ai pics
+delx9
 setups
+cv
+
+毕设
+
+zotero  syn
+code    syn
 
 
 dyn6498297@26
