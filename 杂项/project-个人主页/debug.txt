@@ -1,0 +1,8 @@
+部署方式：
+
+【fork yao模板】
+【设置config中的URL】
+【设置一下setting的写入权限。】
+设置页面从gh分支deploy。
+从master   commit。
+
