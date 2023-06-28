@@ -21,6 +21,8 @@ iceki7@163
 【disc】130 t158
 【baidu】q130
 【baidu】158
+【twitch】q130
+【curseforge】twitch
 
 【bkp】
 canvas  wyV     硬盘
