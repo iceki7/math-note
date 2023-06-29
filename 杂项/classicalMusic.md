@@ -9,7 +9,7 @@ Waltz E minor
 Waltz #C minor
 Waltz B minor
 Ballade No.1 G minor
-Prelude op28 no4,11,16,24
+Prelude op28 dm,em,bBm,B
 Etude Revolutionary
 Etude Op10 No 4 激流
 Etude Winter Wind
@@ -43,7 +43,7 @@ Arabesque No.1
 Bruyeres
 亚麻色头发的少女(la fille aux checeux de lin)
 水之嬉戏(Jeux d'aux)
-Humoresque
+Humoresque bG 德沃夏克
 
 
 K310
@@ -69,14 +69,3 @@ Dance of the Knights
 
 
 Dance of Spring
-
-musmus jp
-hollow knight
-cloud9
-xusong
-por una cabeza
-革命 改编
-电吉他改编
-仙剑
-flower dance
-hotel california

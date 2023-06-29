@@ -23,6 +23,8 @@ iceki7@163
 【baidu】158
 【twitch】q130
 【curseforge】twitch
+【graduate student】100083100081432 密码已改
+【chess】iceki 130
 
 【bkp】
 canvas  wyV     硬盘
