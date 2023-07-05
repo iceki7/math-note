@@ -13,7 +13,7 @@ iceki7@163
 【cc】 concise7_
 【st】q3 t158
 【st bkp】R04094 wenzi
-【micro】q3  q1
+【micro】q3 (1drv,office) q1
 【ut】t158 q1
 【tel】107721
 【wyy】q1 t132
@@ -25,6 +25,8 @@ iceki7@163
 【curseforge】twitch
 【graduate student】100083100081432 密码已改
 【chess】iceki 130
+【muse】iceki
+【zgyh】01
 
 【bkp】
 canvas  wyV     硬盘

@@ -2,6 +2,8 @@
 everything
 spaceSniffer
 cCleaner
+vnc viewer free
+proxifier
 
 旋风加速 x180.cc
 

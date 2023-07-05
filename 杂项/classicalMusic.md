@@ -1,4 +1,4 @@
-
+# chopin
 Nocturne bB minor
 Nocturne bE major
 Nocturne c minor
@@ -18,7 +18,7 @@ Polonaise #G minor
 Mazurkas #f minor
 即兴幻想曲 fantaisie impromptu
 
-
+# beethoven
 Pathetique 1,2,3
 Moonlight 1,3
 Tempest 1,3
@@ -27,7 +27,7 @@ Waldstein 1
 Concerto Emperor
 Symphony No.5 Arr. Liszt
 
-
+# liszt
 Liebestraume
 La Campanella 钟
 Hungarian Rhapsody No.2
@@ -36,6 +36,10 @@ Sonata B minor  (Andre Laplante)
 Ballade No.2 B minor S.171
 Harmonies Du Soir
 Erlkonig Arr.Liszt
+Reminiscences de Norma  S.394   Leslie Howard
+Bénédiction de Dieu dans la solitude
+Romanza in em s.169
+
 
 Clair De Lune
 Reverie
