@@ -9,7 +9,7 @@ Waltz E minor
 Waltz #C minor
 Waltz B minor
 Ballade No.1 G minor
-Prelude op28 dm,em,bBm,B
+Prelude op28 dm,em,bBm,#gm,B
 Etude Revolutionary
 Etude Op10 No 4 激流
 Etude Winter Wind
@@ -39,6 +39,7 @@ Erlkonig Arr.Liszt
 Reminiscences de Norma  S.394   Leslie Howard
 Bénédiction de Dieu dans la solitude
 Romanza in em s.169
+s.140
 
 
 Clair De Lune
