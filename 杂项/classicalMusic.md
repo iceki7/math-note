@@ -63,7 +63,7 @@ C major Prelude
 C minor Prelude
 Cello Suite BWV1007 Prelude, G major
 
-Rach Moments Musicaux no.4
+Rach Moment Musicaux op.16 no.4 em
 Rach Prelude G minor
 
 西贝柳斯 Violin Concerto D minor 
@@ -71,6 +71,8 @@ Rach Prelude G minor
 
 六月船歌 Les saisons(the seasons) op37 no6 June
 Dance of the Knights
+
+肖斯塔科维奇 Waltz no.2
 
 
 Dance of Spring

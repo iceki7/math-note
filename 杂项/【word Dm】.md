@@ -15,7 +15,7 @@ fret
 pit
 infuse
 dis -rupt
-seam
+seam seem
 rig rag 
 scour
 reinforce
