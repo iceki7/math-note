@@ -1,7 +1,10 @@
+# 系统清理软件
+everything      找文件
+spaceSniffer    清理空间
+cCleaner        清理注册表
+Windows Installer CleanUp (处理MSI引起的安装问题)
 
-everything
-spaceSniffer
-cCleaner
+
 vnc viewer free
 proxifier
 

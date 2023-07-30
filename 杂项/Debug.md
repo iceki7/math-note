@@ -12,3 +12,14 @@
 禁用，启用网卡。
 火绒修复。
 Windows修复。
+
+# steam存档位置
+
+云：app内下载
+本地：搜索游戏id相关的vfs文件
+C:\Users\username\Documents\My Games\Danganronpa2
+# steam本地覆盖云：
+
+删掉vdf记录（\Steam\userdata\usrid\gmid）
+离线模式进一次游戏 退出
+上线 进游戏 提示冲突
