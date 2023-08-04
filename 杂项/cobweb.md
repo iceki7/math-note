@@ -34,9 +34,11 @@ sheet   wyV
 mate-note   gi
 wenzi   gi
 ai pics
+photos
+videos
 delx9
 setups
-cv
+resume
 
 毕设
 
