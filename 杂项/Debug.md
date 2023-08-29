@@ -23,3 +23,6 @@ C:\Users\username\Documents\My Games\Danganronpa2
 删掉vdf记录（\Steam\userdata\usrid\gmid）
 离线模式进一次游戏 退出
 上线 进游戏 提示冲突
+
+# dns错误
+DNS改成114再改回来。

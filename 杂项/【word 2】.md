@@ -10,7 +10,6 @@ mortal >
 mortgage
 woe
 seduce
-vile,veil,<vi>ce,evil
 census
 integrate
 prototype

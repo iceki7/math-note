@@ -1,4 +1,4 @@
-reg exp：^letter
+
 
 - English words are irregular,but useful.
 

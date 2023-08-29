@@ -15,7 +15,6 @@ stale
 portain
 havoc
 duplicate
-surveil
 harness
 elaborate
 tide

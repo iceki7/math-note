@@ -34,7 +34,9 @@ Hungarian Rhapsody No.2
 小夜曲 （Serenade） Arr. Liszt
 Sonata B minor  (Andre Laplante)
 Ballade No.2 B minor S.171
-Harmonies Du Soir
+Harmonies Du Soir # ovchinnikov
+s.139 no.2
+s.138 mazeppa
 Erlkonig Arr.Liszt
 Reminiscences de Norma  S.394   Leslie Howard
 Bénédiction de Dieu dans la solitude
