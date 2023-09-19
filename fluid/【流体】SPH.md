@@ -1,6 +1,9 @@
 **material  derivative**
 $$
-\frac{D A^E}{D t}=\frac{\partial A^E}{\partial t}+\mathbf{v} \cdot \nabla_{\mathbf{x}} A^E \quad(对流项) \text { and } \quad \frac{D A^L}{D t}=\frac{\partial A^L}{\partial t} \text {. }
+欧拉法：\frac{D A^E}{D t}=\frac{\partial A^E}{\partial t}+\mathbf{v} \cdot \nabla A^E \quad(对流项)
+$$
+
+$$ 拉格朗日法： \frac{D A^L}{D t}=\frac{\partial A^L}{\partial t} 
 $$
 
 
@@ -17,22 +20,27 @@ $$
 $$
 \rho \frac{D \mathbf{v}}{D t}=\nabla \cdot \mathbf{T}+\mathbf{f}_{\mathrm{ext}}
 $$
+
 **3 constitutive relation for incomp. flow**
 $$
 T=-p\mathbb{I} + \mu(\nabla\mathbf{v} + (\nabla\mathbf{v})^T )
 $$
 
-2 3 推导出NS：
+
+2 3 推导出NS  momentum conservation：
 
 $$
-\rho \frac{D\bold{v}}{Dt}=\mathbf{f}_{ext}+\mu \nabla^2 \mathbf{v}-\nabla p[\rho a]
+\rho \frac{D\bold{v}}{Dt}=\mathbf{f}_{ext}+\mu \nabla^2 \mathbf{v}-\nabla p
 $$
+量纲：$\rho a$
+
+f：body force，类似于作于一个刚体上的力。一个刚体上各个局部的相对位置不变。整体可以用一个位置坐标加一个旋转程度表示。
 
 粘度项是拉普拉斯算子，它的离散对应就是二阶差分。
 即微粒两侧的速度差距越大，它变化越快。
 
 
-**continuity eq.**
+**continuity eq.** mass conservation
 
 
 $$
@@ -46,32 +54,38 @@ $$
 
 ---
 
-不可压缩对于真实流体模拟至关重要。不适当的压缩会导致如体积振荡或体积损失。
+不可压缩性决定模拟真实性。
 
-【不可压缩】用【密度恒定】来衡量，即减小【Δρ】
+不适当的压缩会导致体积振荡、体积损失。
 
-用p矫正nonp产生的【Δρ】
+**保证不可压缩性** 
 
-【如何衡量Δρ】：可以通过核函数插值显式计算当前密度/速度散度计算体积偏差的微分。显式计算体积(密度)偏差：核函数计算，过度修正导致oscillation；隐式：计算$D\rho /Dt$，continuity eq.,volume drift
+用密度偏差来衡量，即减小【Δρ】
+
+用压力加速度矫正非压力加速度产生的【Δρ】
+
+**如何衡量密度偏差**
+    
+核函数插值，显式计算当前密度/速度散度计算体积偏差的微分。显式计算体积(密度)偏差：核函数计算，过度修正导致oscillation；隐式：计算$D\rho /Dt$，continuity eq.,volume drift
 
 
 
-【求解p】：通过state eq.局部计算/PPE全局计算。
+**求解p**：通过state eq.局部计算/PPE全局计算。
 
 ---
 **State eq.**
 
 
 
-弱（可）压缩，$p(\rho)$
-用密度偏差控制压力大小。
+弱（可）压缩，
+直接用密度偏差控制压力大小，设一个压力关于密度的函数，$p=f(\rho)$
 
 WC:tait eq.
 
 ---
 **PPE**
 
-不可压缩
+称为不可压缩的。
 
 $a^p$引起的密度变化与$a^{nonp}$引起的密度变化相等，以及由连续性方程，得到PPE：
 $$
@@ -99,7 +113,10 @@ IISPH方法使用松弛雅各比法迭代求解压力泊松方程。
 若用微分形式计算，即连续性方程：volume drift
 （即1→0→1）
 
-如果压力加速度是从密度偏差的显式形式导出的，则流体体积会由于压力加速度的过度矫正而振荡，这些振荡必须最小化，至少是不可感知的(综述)。如果是使用微分形式计算密度偏差，那么会导致流体体积的漂移，通常是体积损失，需要最小化体积漂移。
+如果$a_p$是从密度偏差的显式形式导出的，则流体体积会由于压力加速度的过度矫正而振荡(oscillate)。
+
+
+如果是使用微分形式计算密度偏差，那么会导致流体体积的漂移(drift)，通常是体积损失。
 
 
 
@@ -213,4 +230,4 @@ relaxed Jacobi方法求解。
 <!-- ![pic](IISPH_alg.png) -->
 
 **DFSPH（divergence-free）**
-恒定密度+速度无散
+恒定密度+速度无散，允许更大时间步长
