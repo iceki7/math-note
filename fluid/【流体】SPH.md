@@ -6,8 +6,8 @@ $$
 $$ 拉格朗日法： \frac{D A^L}{D t}=\frac{\partial A^L}{\partial t} 
 $$
 
-
-
+网格由于存在领域的概念，可以很方便地求出导数。
+粒子法追踪物质微元，欧拉法则类似于水中的浮标只监控同一个地点的信息。
 
 $$
 \frac{DA}{D t}=\frac{\partial A}{\partial t}+\frac{\partial A}{\partial x}\frac{dx}{dt}+...=\frac{\partial A}{\partial t}+\nabla A \cdot \mathbf{v}

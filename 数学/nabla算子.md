@@ -1,34 +1,18 @@
 
-$$
-a\times b=ab^T
-$$
-$$
-\nabla=(\frac{\partial }{\partial x},\frac{\partial }{\partial y},...) 
-$$
 
-**梯度**
+
+**gradient**
 $$
-\nabla  \begin{bmatrix}
-  u \\
-  v \\
-  w \\
-\end{bmatrix}=
- \begin{bmatrix}
-  u_x & u_y & u_z \\ 
-  v_x & v_y & v_z \\ 
-  w_x & w_y & w_z \\ 
-\end{bmatrix}
+\nabla  p=
+(
+  p_x, p_y, p_z )
 
 $$
 显然，函数极值点处 $\nabla f=\vec{0}$，但反过来则不然，该点有可能是鞍点，因此还需要雅可比矩阵和海森矩阵用于判断。
 
-**散度**
+**divergence**
 $$
-\nabla \cdot \begin{bmatrix}
-  u \\
-  v \\
-  w \\
-\end{bmatrix}=u_x+v_y+w_z
+\nabla \cdot \bold{v}=u_x+v_y+w_z
 $$
 
 $$
@@ -44,20 +28,11 @@ $$
  \frac{\partial }{\partial x} &\frac{\partial }{\partial y} &\frac{\partial }{\partial z}
   \\ a&b&c \end{vmatrix}
 $$
-**Laplace算子**
+**Laplace operator**
 $$
-\nabla^2 f=\nabla\cdot (\nabla f)=
-\nabla \cdot \begin{bmatrix}
-  u_x & u_y & u_z \\ 
-  v_x & v_y & v_z \\ 
-  w_x & w_y & w_z \\ 
-\end{bmatrix}=
- \begin{bmatrix}
-  u_{xx} + u_{yy} + u_{zz} \\ 
-v_{xx} + v_{yy} + v_{zz} \\ 
-w_{xx} + w_{yy} + w_{zz} \\ 
-\end{bmatrix}
+\nabla^2 f=\nabla\cdot (\nabla f)
 $$
+如果是标量，拉普拉斯运算后仍然是标量。
 
 其他规则：
 $$
