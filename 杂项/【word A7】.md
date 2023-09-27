@@ -14,7 +14,7 @@ persona
 stale
 portain
 havoc
-duplicate
+duplicate deprecate
 harness
 elaborate
 tide

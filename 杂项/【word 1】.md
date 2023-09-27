@@ -31,7 +31,7 @@ acommodate<provide space>
 all alone
 sb in control of sth
 /sign up /log in=sign in
-mutate
+mutate morph
 augment ->
 diminish
 oppress<emo>

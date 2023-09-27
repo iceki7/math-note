@@ -7,7 +7,7 @@ twilight
 reside
 salvage
 cling
-leverage
+<lever>age
 fluctuate
 sandal scandal saddle
 dumb -my

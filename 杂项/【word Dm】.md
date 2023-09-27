@@ -18,7 +18,7 @@ dis -rupt
 seam seem
 rig rag 
 scour
-reinforce
+<rein>force
 obsecure
 ascend
 aggregate
