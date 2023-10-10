@@ -6,7 +6,6 @@ overbearing
 solitude
 pretentious
 stiff
-tackle ti
 forfeit
 deposit
 persona

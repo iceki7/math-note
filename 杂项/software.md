@@ -1,3 +1,5 @@
+!abandon
+
 # 系统清理软件
 everything      找文件
 spaceSniffer    清理空间
