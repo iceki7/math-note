@@ -2,24 +2,32 @@
 
 
 **gradient**
+
+scalar >> vector
 $$
 \nabla  p=
 (
   p_x, p_y, p_z )
 
 $$
+
+
+
 显然，函数极值点处 $\nabla f=\vec{0}$，但反过来则不然，该点有可能是鞍点，因此还需要雅可比矩阵和海森矩阵用于判断。
 
 **divergence**
+
+vector >> scalar
+
 $$
 \nabla \cdot \bold{v}=u_x+v_y+w_z
 $$
 
-$$
-\nabla \cdot (k\mathbb{I})=\nabla k
-$$
 
-**旋度**
+
+**Curl**
+
+vector >> vector
 
 向量场$\vec{F}(x,y,z)=(a,b,c)$
 $$
@@ -32,14 +40,18 @@ $$
 $$
 \nabla^2 f=\nabla\cdot (\nabla f)
 $$
-如果是标量，拉普拉斯运算后仍然是标量。
 
-其他规则：
+
+连续形式的算子的运算律：
 $$
 \nabla (uv)=u\nabla v+v \nabla u \\
-\nabla \cdot (\nabla \times \vec{F})=0
+\nabla \cdot (\nabla \times \vec{F})=0\\
+\nabla \times (\nabla f)=0
 $$
 
+$$
+\nabla \cdot (k\mathbb{I})=\nabla k
+$$
 
 ---
 

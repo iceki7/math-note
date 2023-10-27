@@ -30,9 +30,11 @@ $$
 2 3 推导出NS  momentum conservation：
 
 $$
-\rho \frac{D\bold{v}}{Dt}=\mathbf{f}_{ext}+\mu \nabla^2 \mathbf{v}-\nabla p
+ \frac{D\bold{v}}{Dt}=g+\nu \nabla^2 \mathbf{v}-\frac{\nabla p}{\rho}
 $$
-量纲：$\rho a$
+量纲：$a$
+
+$\nu$：kinematic viscosity
 
 f：body force，类似于作于一个刚体上的力。一个刚体上各个局部的相对位置不变。整体可以用一个位置坐标加一个旋转程度表示。
 
