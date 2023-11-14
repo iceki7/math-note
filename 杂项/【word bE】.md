@@ -16,5 +16,3 @@ reconcile
 retrieve
 induce se- de-
 span v.
-laminate
-cascade

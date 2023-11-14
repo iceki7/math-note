@@ -17,7 +17,6 @@ duplicate deprecate
 harness
 elaborate
 tide
-luminous
 cuddle
 apprentice
 amnesia

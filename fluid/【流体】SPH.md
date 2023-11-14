@@ -233,3 +233,15 @@ relaxed Jacobi方法求解。
 
 **DFSPH（divergence-free）**
 恒定密度+速度无散，允许更大时间步长
+
+---
+
+$$
+\nabla W=(W_x,W_y,W_z)\\
+W=W(q),q=\frac{r}{h}\\
+W_x=W'_q\cdot q'_x\\
+
+q'_x=(\sqrt{\frac{x^2+y^2+z^2}{h^2}})'=\frac{x}{h\sqrt{x^2+y^2+z^2}}=\frac{x}{hr}
+\\
+\nabla W=W'_q\frac{\bold{(x_j-x_i)}}{hr}
+$$

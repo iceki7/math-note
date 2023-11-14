@@ -1,8 +1,6 @@
-dissipate
 empirical
 tweak twinkle wink txxrk <tick>le <tack>le
 versatile
-disseminate
 <chronic>
 compatiable
 diagonal

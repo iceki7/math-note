@@ -1,6 +1,6 @@
 pilgrim
 purge
-crave = long for
+crave = long for,crane,crest
 <fort>ify
 impart=convey
 fraction

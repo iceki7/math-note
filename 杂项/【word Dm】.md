@@ -16,12 +16,10 @@ pit
 infuse
 dis -rupt
 seam seem
-rig rag 
 scour
 <rein>force
 obsecure
 ascend
-aggregate
 popsicle
 ventilate
 simultaneous

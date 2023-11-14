@@ -7,7 +7,6 @@ crunch
 assimilate
 prom
 calibrate
-crane
 ramble
 cope
 ground v
