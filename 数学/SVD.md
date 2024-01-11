@@ -3,20 +3,25 @@
 
 
 **特征值分解**
-方阵$A$的n个特征向量$w$线性独立，则可做分解：
+
+考虑方阵$A$有n个特征向量w，以及它们对应的特征值.
+
+现在，我们把A分别施加到每一个特征向量上，根据特征值的定义，很容易看出这个过程可以写成如下的一个形式
+$$
+AQ= Q\Sigma
+$$
+其中$Q=\begin{bmatrix}
+w_1 & ... & w_n
+\end{bmatrix}$，$\Sigma$是个对角阵，对角线存储了特征值。
+
+进一步，假设如果Q可逆，则A可以写成：
 $$
 A=Q\Sigma Q^{-1}
 $$
 
-$Q=\begin{bmatrix}
-w_1 & ... & w_n
-\end{bmatrix}$
+什么情况下Q会可逆 TODO
 
-Σ是对角阵，角上的元素是对应的特征值。
-这是因为：
-$
-A=Q\Sigma Q^{-1}\Leftrightarrow AQ=Q\Sigma\Leftrightarrow Aw_i=\lambda_i w_i
-$
+
 
 如果$A^T=A$，正交化后，并使$||w||_2=1$，$Q^{-1}=Q^{T}$
 
