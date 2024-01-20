@@ -6,7 +6,7 @@ corpse
 arbitrary
 attain
 refine
-tangle
+tangle tangent strangle angle ankle 
 collocate
 denote
 stitch
