@@ -26,7 +26,7 @@ give it a shot
 crust
 coward
 penta-gram
-smash
+smash slap stab punch stub snap
 prank
 sort of
 ain't outta

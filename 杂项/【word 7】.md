@@ -2,7 +2,7 @@ Autopsy
 precocious
 senti-
 banish exile
-crawl
+crawl 2
 crunch
 assimilate
 prom
