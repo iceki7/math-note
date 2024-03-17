@@ -14,7 +14,7 @@ $$
 $$
 
 
-**2 motion eq.**
+**2 cauchy momentum eq./motion eq.**
 
 
 $$
