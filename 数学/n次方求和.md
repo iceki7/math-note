@@ -6,50 +6,55 @@ zhihu.com/question/369313777/answer/998250791
 
 设：
 $$
-f(k,n)=\sum_{i=0}^n  i^k,n\geq 0,k\geq 1
+f_k(n)=\sum_{i=0}^n  i^k,n\geq 0,k\geq 1
 $$
 则：
 $$
-f(k,n+1)=f(k,n)+(n+1)^k\quad(*)
+f_k(n+1)=f_k(n)+(n+1)^k\quad(*)
 $$
 
 
-假设$f(k,n)$其实是一个关于n的初等函数$g(k,n)$ 在n取整数时的特例，而g就是我们要得到的通项公式。
+假设$f_k(n)$其实是一个关于n的初等函数$g_k(n)$ 在n取整数时的特例，而g就是我们要得到的通项公式。注意，虽然我们还不知道这样一个能表达n^k求和的初等函数存不存在，但是我们仍然推断下去，最起码能得到g需要满足的一些性质。
 
-假设$g(k,n)$关于n可导，
-​
-则$k\geq 2$时，
+
+
+
+假设$g_k(n)$关于n可导，则
 $$
-\frac{\partial g(k,n)}{\partial n}=\frac{\partial g(k,n-1)}{\partial n}+kn^{k-1}
+g_k'(n)= g_k'(n-1)+kn^{k-1}
 \\ . \\
-=\frac{\partial g(k,n-2)}{\partial n}+k(n-1)^{k-1}+kn^{k-1}
+= g_k'(n-2)+k(n-1)^{k-1}+kn^{k-1}
 $$
 n取多少，就将以上过程重复多少次，之后：
 $$
-=...=\frac{\partial g(k,n)}{\partial n}|_{n=0}+k(1^{k-1}+2^{k-1}+...+n^{k-1})
+=...= g_k'(0)+k(1^{k-1}+...+n^{k-1})
 \\
-=c(k)+kg(k-1,n)
+=g_k'(0)+kg_{k-1}(n)
 $$
-​其中，c(k)是$g(k,n)$对n的导数在n=0处的值.
+
 
 ​因此，
 $$
-\large g(k,n)=nc(k)+\int_0^n kg(k-1,x)dx+C
+ g_k(n)=ng_k'(0)+k\int_0^n g_{k-1}(x)dx+C
 $$
 分别取n=0，n=1，得到：
 $$
-g(k,n)=n\cdot (1-\int^1_0kg(k-1,x)dx)+\int_0^n kg(k-1,x)dx
-$$
-在$k\geq 2$时成立。
-​
-进行验证。我们已经知道g(1,n)存在：
-$$
-g(1,n)=\frac{n^2}{2}+\frac{n}{2}
+g_k(n)=n\cdot (1-k\int^1_0 g_{k-1}(x)dx)+k\int_0^n g_{k-1}(x)dx
 $$
 
-因此，
+进行验证。我们已经知道$g_1(n)$存在：
 $$
-g(2,n)=\int_0^nx^2+xdx+n(1-\int_0^1x^2+xdx)=\frac{n^3}{3}+\frac{n^2}{2}+\frac{n}{6}
+g_1(n)=\frac{n^2}{2}+\frac{n}{2}
+$$
+
+为方便，把多项式简写为向量的形式，则：
+$$
+g_2(n)=[\frac{1}{3},\frac{1}{2},\frac{1}{6},0]
+\\-
+\\g_3(n)=[\frac{1}{4},\frac{1}{2},\frac{1}{4},0,0]
+\\-
+\\
+g_4(n)=[\frac{1}{5},\frac{1}{2},\frac{1}{3},0,\frac{-1}{30},0]
 $$
 
 ---
@@ -62,4 +67,7 @@ s=\frac{D}{n}\sum_{i=0}^{n-1} (id)^k,nd=D，D是常数
 \\ \lim \frac{g(k,n-1)}{n^k}=\frac{1}{k+1}
 $$
 
-​
+---
+
+
+​值得注意的是，对g求导的时候，$g(n)=g(0)+1^k+2^k+...+n^k$，右边的项的【个数】是和n有关系的，是一个类似级数的形式。这种情况下还能不能直接求导，其实有点疑问。
