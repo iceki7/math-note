@@ -1,5 +1,4 @@
 mantra
-induce deduce
 devastate
 flex
 patron -ize

@@ -1,8 +1,9 @@
-transit patent
+transit transmit
+patent
 privilege
 reminiscent
 membrane
-fidelity
+fidelity factual faculty facility
 twilight
 reside
 salvage

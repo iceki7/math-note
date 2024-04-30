@@ -1,4 +1,4 @@
-affinity
+affinity affection
 textile
 pacify
 sacrilegious
